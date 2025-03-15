@@ -109,10 +109,10 @@ static void AddSeedData(WebApplication app)
     parkingDbContext.Users.AddRange(Enumerable.Range(0,4).Select(x => 
     new User()
     {
-        FirstName = "Mustafa",
-        LastName = "Calikci",
-        Email = "mustafacalikci@gmail.com",
-        PhoneNumber = "905078575300",
+        FirstName = "Omer",
+        LastName = "Koyuncu",
+        Email = "..@gmail.com",
+        PhoneNumber = "1234567",
         CreatedDate = DateTime.UtcNow,
     }));
 
