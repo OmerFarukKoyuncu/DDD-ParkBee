@@ -115,6 +115,5 @@ static void AddSeedData(WebApplication app)
         PhoneNumber = "1234567",
         CreatedDate = DateTime.UtcNow,
     }));
-
     parkingDbContext.SaveChanges();
 }
